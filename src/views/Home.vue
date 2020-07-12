@@ -2,7 +2,7 @@
   <section class="home">
     <section class="home-top-header flex column center">
       <div class="search-box flex column center">
-        <h1>Plan Your Trip Together</h1>
+        <h1>checking connection</h1>
         <h3>Find Co-Travelers like yourself to plan your next Adventure</h3>
         <div class="search-box">
           <input class="destination" type="search" placeholder="Choose Destination" />
