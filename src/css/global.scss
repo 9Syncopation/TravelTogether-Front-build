@@ -1,0 +1,29 @@
+// SETUP
+@import 'setup/typography';
+@import 'setup/var';
+@import 'setup/mixins';
+@import 'setup/func';
+
+// BASICS
+@import 'basics/helpers';
+@import 'basics/base';
+@import 'basics/layout';
+
+// COMPONENTS
+@import 'cmps/trip-list-cmp.scss';
+@import 'cmps/user-details-cmp.scss';
+@import 'cmps/trip-map-cmp.scss';
+@import 'cmps/trip-chat-cmp.scss';
+@import 'cmps/trip-details-cmp.scss';
+@import 'cmps/trip-location-cmps.scss';
+@import 'cmps/home-cmp.scss';
+@import 'cmps/Sign-up.cmp.scss';
+@import 'cmps/Login-cmps.scss';
+@import 'cmps/App-footer-cmp.scss';
+@import 'cmps/User-Drawer.scss';
+@import 'cmps/trip-recommended.scss';
+
+
+
+
+

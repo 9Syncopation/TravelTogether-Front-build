@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+html{
+    font-family: poppins,sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+i{
+    margin: 10px;
+}
+.v-content{
+    background-color: white;
+}
+
+.v-application{
+    margin: 0;
+    padding: 0;
+}
+
+header.v-sheet{
+    box-shadow: 0 0 1px 0.5px #676767;
+}
+
+.v-timeline:before{
+    display: none;
+}
+
+input , button{
+    background-color: white;
+}
+
+.route,
+.router-link-exact-active,
+.router-link-active{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    font-family: poppins;
+    color: rgb(255, 255, 255) !important;
+}

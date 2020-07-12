@@ -1,0 +1,126 @@
+.trip-locations {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sort-list {
+  width: 100%;
+  position: relative;
+  background: #e5f4fdc2;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.sort-list .location-name {
+  font-weight: bolder;
+}
+
+.sort-list .stop-index {
+  width: 50px;
+  height: 50px;
+  line-height: 2.5;
+  text-align: center;
+  background-color: white;
+}
+
+.sort-list .location-box {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.trip-locations .sortable-drag {
+  opacity: 0;
+}
+
+.flip-list-move {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.ghost {
+  border-left: 3px solid #6060f5;
+  -webkit-box-shadow: 10px 10px 5px -1 rgba(0, 0, 0, 0.123);
+          box-shadow: 10px 10px 5px -1 rgba(0, 0, 0, 0.123);
+  opacity: 0.7;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ghost::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -50px;
+}
+
+.location-info {
+  max-width: 65%;
+}
+
+.location-name, .location-address {
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-weight: 500;
+}
+
+.location-icons {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.location-icons i {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.location-icons i.heart {
+  color: #ca3333;
+}
+
+.location-icons i.map-pin {
+  color: #777777;
+}
+
+.location-icons i:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+}
+
+@media (max-width: 835px) {
+  .location-name, .location-address, .location-icons {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .trip-locations {
+    width: 100%;
+  }
+  .sort-list .stop-index {
+    display: none;
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .sort-list .location-icons {
+    font-family: 10px;
+  }
+  .sort-list .location-icons i {
+    margin: 5px;
+  }
+  .sort-list .location-info {
+    max-width: 65%;
+  }
+}
+/*# sourceMappingURL=trip-location-cmps.css.map */

@@ -1,0 +1,364 @@
+{
+	"_id": {
+		"$oid": "5de7ed2d5388cc0e36f9df16"
+	},
+	"date": {
+		"start": {
+			"$numberInt": "400000000"
+		},
+		"end": {
+			"$numberInt": "800000000"
+		}
+	},
+	"title": "Jordan Desert-Petra",
+	"desc": "I am travelling by myself, looking for up to 3 travellers to join 4 days trip with local tour guide, shared expanses and the entrance cost as needed. i am flexible with the dates (+/-1 day)",
+	"section": "petra",
+	"types": [
+		"hiking",
+		"Cultural",
+		"Camping"
+	],
+	"locations": [
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "30.322718"
+				},
+				"lng": {
+					"$numberDouble": "35.451678"
+				}
+			},
+			"address": "Petra District, Jordan",
+			"placeName": "The Treasury",
+			"placeDesc": "Historical landmark",
+			"isEditable": false
+		},
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "30.339336"
+				},
+				"lng": {
+					"$numberDouble": "35.431145"
+				}
+			},
+			"address": "Petra District, Jordan",
+			"placeName": "Ad-Deir",
+			"placeDesc": "Historical landmark",
+			"isEditable": false
+		},
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "30.329154"
+				},
+				"lng": {
+					"$numberDouble": "35.444326"
+				}
+			},
+			"country": "Jordan",
+			"address": "Colonnaded St, Jordan",
+			"placeName": "Petra",
+			"placeDesc": "Iconic 2000-year-old city, including 45m-high Al Khazneh, carved into the red mountain rock",
+			"isEditable": false
+		}
+	],
+	"creatorID": "5de7ec515388cc0e36f9df09",
+	"memebers": [
+		{
+			"_id": "5de7ec515388cc0e36f9df0a",
+			"firstName": "Emera",
+			"lastName": "Matkovic",
+			"email": "ematkovic1@squidoo.com",
+			"password": "johntheking",
+			"imgUrl": "https://images.pexels.com/photos/3307616/pexels-photo-3307616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			"favTrips": [
+				"Extreme",
+				"Backpacking",
+				"WildLife"
+			],
+			"rating": {
+				"$numberInt": "3"
+			}
+		},
+		{
+			"_id": "5de7ec515388cc0e36f9df12",
+			"firstName": "Israel",
+			"lastName": "Israeli",
+			"email": "israel@gmail.com",
+			"password": "israelmukkitheking",
+			"imgUrl": "https://images.pexels.com/photos/555790/pexels-photo-555790.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"favTrips": [
+				"cultural",
+				"relax",
+				"shopping"
+			],
+			"rating": {
+				"$numberInt": "4"
+			}
+		}
+	],
+	"pendings": [
+		{
+			"_id": "5de7ec515388cc0e36f9df10",
+			"firstName": "Lulu",
+			"lastName": "Cohen",
+			"email": "lulioo@gmail.com",
+			"password": "lulutheking",
+			"imgUrl": "https://images.pexels.com/photos/2700332/pexels-photo-2700332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"favTrips": [
+				"relax",
+				"cultural",
+				"hiking",
+				"party"
+			],
+			"rating": {
+				"$numberInt": "3"
+			}
+		}
+	],
+	"country": "Jordan",
+	"rating": {
+		"$numberDouble": "4.6"
+	},
+	"maxCapacity": {
+		"$numberInt": "3"
+	},
+	"isEditable": true,
+	"imgUrl": [
+		"https://www.touristisrael.com/wp-content/uploads/Petra-Tour-from-Tel-Aviv-1-day-header.jpg",
+		"https://www.touristisrael.com/wp-content/uploads/Petra-Tour-from-Tel-Aviv-1-day-4.jpg",
+		"https://www.touristisrael.com/wp-content/uploads/Petra-Tour-from-Tel-Aviv-1-day-3.jpg",
+		"https://www.touristisrael.com/wp-content/uploads/Petra-Tour-from-Tel-Aviv-1-day-5.jpg",
+		"https://www.touristisrael.com/wp-content/uploads/Petra-Tour-from-Tel-Aviv-1-day-2.jpg"
+	]
+},
+{
+	"_id": {
+		"$oid": "5de7ed2d5388cc0e36f9df1b"
+	},
+	"date": {
+		"start": {
+			"$numberInt": "100000000"
+		},
+		"end": {
+			"$numberInt": "500000000"
+		}
+	},
+	"title": "France - Outstanding Vibes",
+	"desc": "Join Me To an amazing adventure, exlporing and sensing the vibes and people of France, looking for open minded partners!",
+	"section": "Paris",
+	"types": [
+		"party",
+		"Cultural",
+		"Hiking",
+		"Adventure",
+		"food"
+	],
+	"locations": [
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "48.858093"
+				},
+				"lng": {
+					"$numberDouble": "2.294694"
+				}
+			},
+			"address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+			"placeName": "Eiffel Tour",
+			"placeDesc": "One of the most famous landmarks in the world, the Eiffel Tower (la Tour Eiffel) symbolizes Paris. ",
+			"isEditable": false
+		},
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "48.88041"
+				},
+				"lng": {
+					"$numberDouble": "2.30889"
+				}
+			},
+			"address": "35 boulevard de Courcelles - 75008 Paris",
+			"placeName": "Parc Monceau",
+			"placeDesc": "The construction of Parc Monceau dates back to the 17th century, under the orders of the Duke of Chartres.",
+			"isEditable": false
+		},
+		{
+			"position": {
+				"lat": {
+					"$numberDouble": "48.873756"
+				},
+				"lng": {
+					"$numberDouble": "2.294946"
+				}
+			},
+			"address": "‪Place Charles de Gaulle‬, 75008 paris , france ",
+			"placeName": "‪Arc de Triomphe‬",
+			"placeDesc": "Arc de Triomphe located at Place Charles de Gaulle is undoubtedly one of the most famous tourist attractions of Paris. This 50 m tall monument honors all those who fought and died in French Napoleon Wars and French Revolution.",
+			"isEditable": false
+		}
+	],
+	"creatorID": "5de7ec515388cc0e36f9df08",
+	"memebers": [
+		{
+			"_id": "5de7ec515388cc0e36f9df12",
+			"firstName": "Israel",
+			"lastName": "Israeli",
+			"email": "israel@gmail.com",
+			"password": "israelmukkitheking",
+			"imgUrl": "https://images.pexels.com/photos/555790/pexels-photo-555790.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"favTrips": [
+				"cultural",
+				"relax",
+				"shopping"
+			],
+			"rating": {
+				"$numberInt": "4"
+			}
+		},
+		{
+			"_id": "5de7ec515388cc0e36f9df10",
+			"firstName": "Lulu",
+			"lastName": "Cohen",
+			"email": "lulioo@gmail.com",
+			"password": "lulutheking",
+			"imgUrl": "https://images.pexels.com/photos/2700332/pexels-photo-2700332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"favTrips": [
+				"relax",
+				"cultural",
+				"hiking",
+				"party"
+			],
+			"rating": {
+				"$numberInt": "3"
+			},
+			"tripsJoin": [
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df14",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df15",
+					"isApproved": true
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df16",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df19",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df1b",
+					"isApproved": true
+				}
+			]
+		}
+	],
+	"pendings": [
+		{
+			"_id": "5de7ec515388cc0e36f9df11",
+			"firstName": "Muki",
+			"lastName": "Levy",
+			"email": "muki9999@gmail.com",
+			"password": "mukitheking",
+			"imgUrl": "https://images.pexels.com/photos/3078091/pexels-photo-3078091.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"favTrips": [],
+			"rating": {
+				"$numberInt": "5"
+			}
+		},
+		{
+			"_id": "5de7ec515388cc0e36f9df09",
+			"firstName": "Rachel",
+			"lastName": "Roberts",
+			"email": "gcoal0@xing.com",
+			"imgUrl": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+			"favTrips": [
+				"Camping",
+				"Hiking",
+				"Urban"
+			],
+			"rating": {
+				"$numberInt": "4"
+			},
+			"tripsJoin": [
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df17",
+					"isApproved": true
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df19",
+					"isApproved": true
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df1a",
+					"isApproved": true
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df1b",
+					"isApproved": false
+				}
+			]
+		},
+		{
+			"_id": "5de7ec515388cc0e36f9df0c",
+			"firstName": "Shanon",
+			"lastName": "Bartosch",
+			"email": "abartosch3@constantcontact.com",
+			"imgUrl": "https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+			"favTrips": [
+				"Biking",
+				"Urban",
+				"Cultural"
+			],
+			"rating": {
+				"$numberInt": "5"
+			},
+			"tripsJoin": [
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df13",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df1a",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df14",
+					"isApproved": false
+				},
+				{
+					"tripId": "5de7ed2d5388cc0e36f9df1b",
+					"isApproved": false
+				}
+			]
+		}
+	],
+	"country": "France",
+	"rating": {
+		"$numberDouble": "4.8"
+	},
+	"maxCapacity": {
+		"$numberInt": "5"
+	},
+	"isEditable": true,
+	"imgUrl": [
+		"https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+		"https://images.pexels.com/photos/161901/paris-sunset-france-monument-161901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+		"https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+		"https://images.pexels.com/photos/149637/pexels-photo-149637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+	]
+},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df13"},"date":{"start":{"$numberDouble":"3010400000"},"end":{"$numberDouble":"3040400000"}},"country":"Spain","title":"Barcelona - Not Just Football","desc":"We can check out the urban spots the city has to offer. one option is a lunch break at the park and enter the famous museum. or find a local Tapas bar for some drinks a swell. ","section":"Barcelona","types":["Shopping","Cultural","Urban","Food","Party","Food & Drinks"],"locations":[{"position":{"lat":{"$numberDouble":"41.404354"},"lng":{"$numberDouble":"2.175528"}},"address":"La Sagrada Familia, 08013 Barcelona, Spain","placeName":"La Sagrada Familia","placeDesc":"Antoni Gaudí's renowned unfinished church, started in the 1880s, with museum and city views.","isEditable":"false"},{"position":{"lat":{"$numberDouble":"41.419411"},"lng":{"$numberDouble":"2.167523"}},"address":"10712 Rashford","placeName":"Parc del Guinardó","placeDesc":"Municipal park since 1910 with pines & flowering rosewood trees, plus fountain, forest & waterfalls.","isEditable":"false"},{"position":{"lat":{"$numberDouble":"41.404442"},"lng":{"$numberDouble":"2.175442"}},"address":"08025 Barcelona, Spain","placeName":"Plaça de Gaudí","placeDesc":"Small, square park featuring landscaped gardens & scenic views of the Basilica of Sagrada Familia.","isEditable":"false"}],"creatorID":"5de7ec515388cc0e36f9df09","memebers":[{"_id":"5de7ec515388cc0e36f9df0a","firstName":"Emera","lastName":"Matkovic","email":"ematkovic1@squidoo.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3307616/pexels-photo-3307616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","favTrips":["Extreme","Backpacking","WildLife"],"rating":{"$numberInt":"3"}},{"_id":"5de7ec515388cc0e36f9df0b","firstName":"Anissa","lastName":"Kittoe","email":"akittoe2@cbsnews.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3267569/pexels-photo-3267569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Festivals","Hiking","Cultural"],"rating":{"$numberInt":"2"}}],"pendings":[{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Shanon","lastName":"Bartosch","email":"abartosch3@constantcontact.com","imgUrl":"https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df13","isApproved":false}]},{"_id":"5de7ec515388cc0e36f9df08","firstName":"John","lastName":"Nickolas","email":"John123@gmail.com","imgUrl":"https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Extreme","Hiking","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df15","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df13","isApproved":false}]}],"rating":{"$numberInt":"5"},"maxCapacity":{"$numberInt":"6"},"isEditable":true,"imgUrl":["https://cdn.vox-cdn.com/thumbor/9zHVj4OnM5pYeO8rCX-W4aL-lw0=/0x0:4428x1993/1200x800/filters:focal(1872x1198:2580x1906)/cdn.vox-cdn.com/uploads/chorus_image/image/63371518/shutterstock_785442694.0.jpg","https://barcelona-home.com/blog/wp-content/upload/2013/12/table-full-of-tapas-955x508.jpg","https://www.abc.net.au/news/image/11449980-3x2-700x467.jpg","https://lh5.googleusercontent.com/p/AF1QipP9SBSCZUQUyuR0H6plcsJNlfg-ZQE2fgZNEZr4=w408-h305-k-no","http://www.photoguide.to/wp-content/uploads/2015/10/barcelona.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df17"},"date":{"start":{"$numberInt":"100000000"},"end":{"$numberInt":"300000000"}},"title":"Croatia - Plitvice Lakes ","desc":"an Israelis couple, planning to Tour the area for couple of days, including night sleep at a resort, travelling with private car, looking for up to 3 member to join the adventure , shared expanses","section":"Plitvice Lakes","types":["Nature","Hiking","Relax","Adventure","Biking"],"locations":[{"position":{"lat":{"$numberDouble":"44.865387"},"lng":{"$numberDouble":"15.581849"}},"country":"Croatia","address":"VH8J+5P Plitvički Ljeskovac, Croatia","placeName":"Plitvice Lakes National Park","placeDesc":"National park known for lakes, alpine forests, waterfalls & caves, plus hiking trails.","isEditable":false},{"position":{"lat":{"$numberDouble":"44.642544"},"lng":{"$numberDouble":"15.363854"}},"address":"Kaniža bb, 53202, Perušić, Croatia","placeName":"Pećinski park Grabovača","placeDesc":"Nature preserve","isEditable":false},{"position":{"lat":{"$numberDouble":"44.900818"},"lng":{"$numberDouble":"15.595694"}},"address":"53231, Plitvica Selo, Croatia","placeName":"Plitvica Selo","placeDesc":"Plitvica Selo","isEditable":false},{"position":{"lat":{"$numberDouble":"44.53951"},"lng":{"$numberDouble":"15.218695"}},"address":"53211, Trnovac, Gospić, Croatia","placeName":"Velebit","placeDesc":"Mountain peak","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df0b","memebers":[{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Ashien","lastName":"Bartosch","email":"abartosch3@constantcontact.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/2599039/pexels-photo-2599039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"}},{"_id":"5de7ec515388cc0e36f9df0e","firstName":"Tom","lastName":"Potter","email":"Potter100@gmail.com","password":"tomtheking","imgUrl":"https://images.pexels.com/photos/3110920/pexels-photo-3110920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["party","cultural","urban"],"rating":{"$numberInt":"2"}},{"_id":"5de7ec515388cc0e36f9df0d","firstName":"Lucy","lastName":"Johannesson","email":"ljohannesson4@arizona.edu","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3127364/pexels-photo-3127364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","WildLife","Adventure"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df09","firstName":"Genevieve","lastName":"Coal","email":"gcoal0@xing.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3289513/pexels-photo-3289513.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","Hiking","Urban"],"rating":{"$numberInt":"4"}}],"pendings":[{"_id":"5de7ec515388cc0e36f9df08","firstName":"John","lastName":"Doe","email":"John123@gmail.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3309467/pexels-photo-3309467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","favTrips":["Extreme","Hiking","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[]}],"country":"Croatia","rating":{"$numberDouble":"4.1"},"maxCapacity":{"$numberInt":"8"},"isEditable":true,"imgUrl":["https://www.contiki.com/six-two/wp-content/uploads/2018/02/plitvice-lakes-in-croatia-3.jpg","https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/pascal-habermann-35818.jpg","https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_plitvice-lakes_boardwalk.jpg","https://i.redd.it/obsaks5g714z.jpg","https://medmeanderings.com/wp-content/uploads/2016/06/Turs-plitvice-lakes-006.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df18"},"date":{"start":{"$numberInt":"0"},"end":{"$numberInt":"300000000"}},"title":"Bogota -The local tastes","desc":"Local student, will be happy to show you the secrets of Bogota and the surrounding, for a mere cost, lets talk about the dates..","section":"Bogota","types":["Shopping","urban","Cultural","Hiking","Adventure","Camping"],"locations":[{"position":{"lat":{"$numberDouble":"4.601233"},"lng":{"$numberDouble":"-74.069382"}},"address":"Bogota, Colombia","placeName":"Journalists' Park","placeDesc":"Park named in honor of journalists, like Gabriel García Marquez, also with a Simón Bolívar temple.","isEditable":false},{"position":{"lat":{"$numberDouble":"3.455133"},"lng":{"$numberDouble":"-76.532608"}},"address":"Valle del Cauca","placeName":"Cali","placeDesc":"Cali is a Colombian city in the Valle del Cauca department, southwest of Bogotá.","isEditable":false},{"position":{"lat":{"$numberDouble":"3.440339"},"lng":{"$numberDouble":"-77.087657"}},"address":"CV6X+V2 Arayon, Buenaventura, Valle del Cauca, Colombia","placeName":"Farallones de Cali National Natural Park","placeDesc":"National park","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df09","memebers":[{"_id":"5de7ec515388cc0e36f9df0d","firstName":"Lucy","lastName":"Johannesson","email":"ljohannesson4@arizona.edu","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3127364/pexels-photo-3127364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","WildLife","Adventure"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df0e","firstName":"Tom","lastName":"Potter","email":"Potter100@gmail.com","password":"tomtheking","imgUrl":"https://images.pexels.com/photos/3110920/pexels-photo-3110920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["party","cultural","urban"],"rating":{"$numberInt":"2"}},{"_id":"5de7ec515388cc0e36f9df0f","firstName":"Shoko","lastName":"Cohen","email":"ShokoShoko@gmail.com","password":"shokotheking","imgUrl":"https://images.pexels.com/photos/3147528/pexels-photo-3147528.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["relax","cultural","trekk"],"rating":{"$numberInt":"4"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df17","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df18","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df1c","isApproved":true}]}],"pendings":[],"country":"Colombia","rating":{"$numberDouble":"4.4"},"maxCapacity":{"$numberInt":"3"},"isEditable":true,"imgUrl":["https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Cerros_a_la_altura_de_la_calle_Setenta.JPG/800px-Cerros_a_la_altura_de_la_calle_Setenta.JPG","https://i2.wp.com/thecitypaperbogota.com/wp-content/uploads/2019/10/John-Buitrago.jpg?resize=1068%2C712&ssl=1","https://ifera.org/wp-content/uploads/2017/12/Bogota.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Centro_fin_Bt%C3%A1_2.jpg/800px-Centro_fin_Bt%C3%A1_2.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df19"},"date":{"start":{"$numberInt":"2000000002"},"end":{"$numberLong":"3000300003"}},"title":"Guided city tour in Freiburg,Germany","desc":"4-day Self-Drive German Beer Brewing Tradition Tour from Freiburg to Heidelberg and Wuerzburg, including Freiburg City Tour","section":"Freiburg,Germany","types":["shopping","Cultural","Hiking","Adventure","Food & Drinks"],"locations":[{"position":{"lat":{"$numberDouble":"47.995034"},"lng":{"$numberDouble":"7.849831"}},"address":"Kaiser-Joseph-Straße 218-222, 79098 Freiburg im Breisgau, Germany","placeName":"Located in: University of Freiburg","placeDesc":"Museum","isEditable":false},{"position":{"lat":{"$numberDouble":"49.408745"},"lng":{"$numberDouble":"8.68471"}},"address":"Bergheim, 69115 Heidelberg, Germany","placeName":"Heidelberg","placeDesc":"Boat club","isEditable":false},{"position":{"lat":{"$numberDouble":"49.791576"},"lng":{"$numberDouble":"9.937514"}},"address":"Residenzplatz 2, 97070 Würzburg, Germany","placeName":"Court Garden","placeDesc":"Formal gardens at the Würzburger Residenz featuring Baroque- & English-style sections.","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df08","memebers":[{"_id":"5de7ec515388cc0e36f9df12","firstName":"Israel","lastName":"Israeli","email":"israel@gmail.com","password":"israelmukkitheking","imgUrl":"https://images.pexels.com/photos/555790/pexels-photo-555790.png?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["cultural","relax","shopping"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df11","firstName":"Muki","lastName":"Levy","email":"muki9999@gmail.com","password":"mukitheking","imgUrl":"https://images.pexels.com/photos/3078091/pexels-photo-3078091.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":[],"rating":{"$numberInt":"5"}},{"_id":"5de7ec515388cc0e36f9df09","firstName":"Genevieve","lastName":"Coale","email":"gcoal0@xing.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3289513/pexels-photo-3289513.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","Hiking","Urban"],"rating":{"$numberInt":"4"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df17","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df19","isApproved":true}]}],"pendings":[{"_id":"5de7ec515388cc0e36f9df10","firstName":"Lulu","lastName":"Cohen","email":"lulioo@gmail.com","password":"lulutheking","imgUrl":"https://images.pexels.com/photos/2700332/pexels-photo-2700332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["relax","cultural","hiking","party"],"rating":{"$numberInt":"3"}}],"country":"Germany","rating":{"$numberDouble":"4.4"},"maxCapacity":{"$numberInt":"10"},"isEditable":true,"imgUrl":["https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/e8/ae.jpg","https://media.tacdn.com/media/attractions-splice-spp-674x446/08/4c/90/26.jpg","https://media.tacdn.com/media/attractions-splice-spp-674x446/08/4c/91/aa.jpg","https://media.tacdn.com/media/attractions-splice-spp-674x446/06/f0/91/11.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df14"},"date":{"start":{"$numberInt":"0"},"end":{"$numberInt":"200000000"}},"title":"Nights at Amsterdam","desc":"I am new in town and looking for companions to tour the city. mainly looking for the culture and urban side of the city, CoffeShops are a must, also biking and stop at the park","section":"Amsterdam","types":["Shopping","Urban","Adventure","Biking","food & Drinks"],"locations":[{"position":{"lat":{"$numberInt":"38"},"lng":{"$numberInt":"33"}},"country":"Holland","address":"Museumstraat 1071 XX Amsterdam","placeName":"Rijksmuseum Museum","placeDesc":"The Rijksmuseum is a Dutch national museum dedicated to arts and history in Amsterdam. The museum is located at the Museum Square ","isEditable":false},{"position":{"lat":{"$numberDouble":"52.358164"},"lng":{"$numberDouble":"4.879497"}},"address":"Slotermeer-Zuidwest, 1064 GW Amsterdam, Netherlands","placeName":"Stedelijk Museum Amsterdam","placeDesc":"Contemporary museum with appearance of large bathtub, showing international, modern art & design.","isEditable":false},{"position":{"lat":{"$numberDouble":"52.370779"},"lng":{"$numberDouble":"4.814985"}},"address":"Slotermeer-Zuidwest, 1064 GW Amsterdam, Netherlands","placeName":"Natuurspeeltuin De Natureluur","placeDesc":"Natuurspeeltuin De Natureluur","isEditable":false},{"position":{"lat":{"$numberDouble":"52.391558"},"lng":{"$numberDouble":"4.87404"}},"address":"Hembrugstraat 272, 1013 XE Amsterdam, Netherlands","placeName":"Museum Het Schip","placeDesc":"Iconic 1919 apartment building with a museum displaying works by the Amsterdam School, plus a cafe.","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df09","memebers":[{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Ashien","lastName":"Bartosch","email":"abartosch3@constantcontact.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/2599039/pexels-photo-2599039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"}},{"_id":"5de7ec515388cc0e36f9df0e","firstName":"Tom","lastName":"Potter","email":"Potter100@gmail.com","password":"tomtheking","imgUrl":"https://images.pexels.com/photos/3110920/pexels-photo-3110920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["party","cultural","urban"],"rating":{"$numberInt":"2"}},{"_id":"5de7ec515388cc0e36f9df0f","firstName":"Shoko","lastName":"Cohen","email":"ShokoShoko@gmail.com","password":"shokotheking","imgUrl":"https://images.pexels.com/photos/3147528/pexels-photo-3147528.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["relax","cultural","trekk"],"rating":{"$numberInt":"4"}}],"pendings":[{"_id":"5de7ec515388cc0e36f9df10","firstName":"Lulu","lastName":"Cohen","email":"lulioo@gmail.com","password":"lulutheking","imgUrl":"https://images.pexels.com/photos/2700332/pexels-photo-2700332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["relax","cultural","hiking","party"],"rating":{"$numberInt":"3"}},{"_id":"5de7ec515388cc0e36f9df12","firstName":"Israel","lastName":"Israeli","email":"israel@gmail.com","password":"israelmukkitheking","imgUrl":"https://images.pexels.com/photos/555790/pexels-photo-555790.png?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["cultural","relax","shopping"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df08","firstName":"John","lastName":"Nickolas","email":"John123@gmail.com","imgUrl":"https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Extreme","Hiking","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df15","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df13","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":false}]},{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Shanon","lastName":"Bartosch","email":"abartosch3@constantcontact.com","imgUrl":"https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df13","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df1a","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df1b","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":false}]}],"country":"Netherland","rating":{"$numberDouble":"4.9"},"maxCapacity":{"$numberInt":"5"},"isEditable":true,"imgUrl":["https://www.cathaypacific.com/content/dam/destinations/amsterdam/cityguide-gallery/amsterdam-houses-apartments-920x500.jpg","https://images.pexels.com/photos/643/city-night-evening-canal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://www.cathaypacific.com/content/dam/destinations/amsterdam/cityguide-gallery/amsterdam-dutch-houses-920x500.jpg","https://www.cathaypacific.com/content/dam/destinations/amsterdam/cityguide-gallery/amsterdam-bicycle-920x500.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df1c"},"date":{"start":{"$numberInt":"300000000"},"end":{"$numberInt":"300000000"}},"title":"1Day-Trip zakynthos ","desc":"We Are a couple looking for other Open-Minded travelers Which enjoy Hiking to explore the island and his Beauty, We Will visit the most iconic places Of zante , JOIN US. ","section":"Zakynthos","types":["view","Cultural","Hiking","Adventure","food"],"locations":[{"position":{"lat":{"$numberDouble":"37.920148"},"lng":{"$numberDouble":"20.70631"}},"address":"Blue caves , agios nikolas","placeName":"Blue Caves","placeDesc":"The little harbour at Skinari in the very north of Zakynthos is the point of departure for trips to the Blue Caves, also only accessed by water.Within minutes you’ll be floating through a magnificent set of limestone sea caves and natural arches.","isEditable":false},{"position":{"lat":{"$numberDouble":"37.739656"},"lng":{"$numberDouble":"20.700652"}},"address":"The road from Ag. Leon‬, 291 00 Zante","placeName":"Porto Limnionas Beach","placeDesc":" newly laid road from the village of Agios Leon weaves down to this fjord on the west coast, bounded on its east side by high white cliffs hollowed with caves.","isEditable":false},{"position":{"lat":{"$numberDouble":"37.859673"},"lng":{"$numberDouble":"20.624903"}},"address":"Shipwreck Beach, Elation, Greece","placeName":"Navagio (Shipwreck Cove)","placeDesc":"In the northeast of Zakynthos is a cove embraced by towering white limestone cliffs.Beneath them on the white beach are the rusting remains of the MV Panagiotis, a container ship than ran aground in 1980.","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df12","memebers":[{"_id":"5de7ec515388cc0e36f9df0f","firstName":"Shoko","lastName":"Cohen","email":"ShokoShoko@gmail.com","password":"shokotheking","imgUrl":"https://images.pexels.com/photos/3147528/pexels-photo-3147528.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["relax","cultural","trekk"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df0e","firstName":"Tom","lastName":"Potter","email":"Potter100@gmail.com","password":"tomtheking","imgUrl":"https://images.pexels.com/photos/3110920/pexels-photo-3110920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["party","cultural","urban"],"rating":{"$numberInt":"2"}}],"pendings":[{"_id":"5de7ec515388cc0e36f9df0d","firstName":"Lucy","lastName":"Johannesson","email":"ljohannesson4@arizona.edu","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3127364/pexels-photo-3127364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","WildLife","Adventure"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Ashien","lastName":"Bartosch","email":"abartosch3@constantcontact.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/2599039/pexels-photo-2599039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"}},{"_id":"5de7ec515388cc0e36f9df09","firstName":"Genevieve","lastName":"Roberts","email":"gcoal0@xing.com","imgUrl":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Camping","Hiking","Urban"],"rating":{"$numberInt":"4"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df17","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df19","isApproved":true}]}],"country":"greece","rating":{"$numberDouble":"4.7"},"maxCapacity":{"$numberInt":"7"},"isEditable":true,"imgUrl":["https://images.pexels.com/photos/164041/pexels-photo-164041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/164041/pexels-photo-164041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://www.greeka.com/photos/ionian/zakynthos/beaches/hero/zakynthos-beaches-1280.jpg","https://images.pexels.com/photos/289319/pexels-photo-289319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df15"},"date":{"start":{"$numberInt":"900000000"},"end":{"$numberInt":"999000000"}},"title":"Sunrise at Uluru","desc":"planned to do the trekking tour surrounding the rock and have a break at the local village for camping, check the sacred sites, with a roud trip to the lake.","section":"uluru","types":["Extreme","Cultural","Camping","Hiking"],"locations":[{"position":{"lat":{"$numberDouble":"-25.230354"},"lng":{"$numberDouble":"130.984302"}},"address":"Northern Territory 0872","placeName":"Yulara","placeDesc":"Yulara is a town in the Southern Region of the Northern Territory, Australia. It lies as an unincorporated enclave within MacDonnell Region. ","isEditable":false},{"position":{"lat":{"$numberDouble":"-24.296475"},"lng":{"$numberDouble":"131.562755"}},"country":"Australia","address":"Luritja Rd, Petermann NT 0872, Australia","placeName":"Watarrka National Park","placeDesc":"National park","isEditable":false},{"position":{"lat":{"$numberInt":"-25"},"lng":{"$numberInt":"131"}},"address":"Petermann NT 0872","placeName":"Uluru","placeDesc":"This huge sandstone monolith in Uluru-Kata Tjuta National Park is sacred to indigenous Australians.","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df09","memebers":[{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Ashien","lastName":"Bartosch","email":"abartosch3@constantcontact.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/2599039/pexels-photo-2599039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"}},{"_id":"5de7ec515388cc0e36f9df0e","firstName":"Tom","lastName":"Potter","email":"Potter100@gmail.com","password":"tomtheking","imgUrl":"https://images.pexels.com/photos/3110920/pexels-photo-3110920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["party","cultural","urban"],"rating":{"$numberInt":"2"}},{"_id":"5de7ec515388cc0e36f9df10","firstName":"Lulu","lastName":"Cohen","email":"lulioo@gmail.com","password":"lulutheking","imgUrl":"https://images.pexels.com/photos/2700332/pexels-photo-2700332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Relax","Cultural","Hiking","Party","Adventure"],"rating":{"$numberInt":"3"}}],"pendings":[{"_id":"5de7ec515388cc0e36f9df08","firstName":"John","lastName":"Nickolas","email":"John123@gmail.com","imgUrl":"https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Extreme","Hiking","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df15","isApproved":false}]}],"country":"Australia","rating":{"$numberDouble":"4.5"},"maxCapacity":{"$numberInt":"5"},"isEditable":true,"imgUrl":["http://999photos.com/australia/photos/uluru_5.gif","https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aerial_view_of_Uluru_at_sunset.jpg/800px-Aerial_view_of_Uluru_at_sunset.jpg","https://s27363.pcdn.co/wp-content/uploads/2017/04/Uluru-up-close.jpg.webp","https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_850/https://travelingera.com/wp-content/uploads/2019/06/503.jpg"]},
+{"_id":{"$oid":"5de7ed2d5388cc0e36f9df1a"},"date":{"start":{"$numberInt":"100000000"},"end":{"$numberInt":"200000000"}},"title":"Day Trip In The Amazimg London","desc":"My plan is to visit the best and the most tourist places in london, expoloring the rich history and observe the outstanding culture on the planet, Who's with me?","section":"London","types":["shopping","urban","Cultural","Adventure"],"locations":[{"position":{"lat":{"$numberDouble":"51.510357"},"lng":{"$numberDouble":"-0.11677"}},"address":"Big Ben, Westminster, London, UK","placeName":"Big Ben - westminster","placeDesc":"Big Ben, or Elizabeth Tower, is one of the key tourist attractions of Westminster, London. It is an old historic clock tower constructed in the middle of the 19th century","isEditable":false},{"position":{"lat":{"$numberDouble":"51.503399"},"lng":{"$numberDouble":"-0.119519"}},"address":"London Eye, Lambeth, London, UK","placeName":" London Eye","placeDesc":"London Eye is definitely one of the most known tourist attractions of London, located in the very historic central part of the capital at Westminster Bridge Road, Lambeth, London, UK.","isEditable":false},{"position":{"lat":{"$numberDouble":"51.50861"},"lng":{"$numberDouble":"-0.163611"}},"address":"Hyde Park, London, the UK","placeName":"Hyde Park","placeDesc":"Hyde Park is one of the most famous landmarks of London, the capital of the UK. It is one of so called Royal Parks of London, a group of parks that also include Kensington Gardens, Green Park, and others. Hyde Park is one of the oldest parks in the country, established in the mid 16th century by the Royal person of those times.","isEditable":false}],"creatorID":"5de7ec515388cc0e36f9df08","memebers":[{"_id":"5de7ec515388cc0e36f9df0d","firstName":"Lucy","lastName":"Johannesson","email":"ljohannesson4@arizona.edu","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3127364/pexels-photo-3127364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Camping","WildLife","Adventure"],"rating":{"$numberInt":"4"}},{"_id":"5de7ec515388cc0e36f9df09","firstName":"Rachel","lastName":"Roberts","email":"gcoal0@xing.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Camping","Hiking","Urban"],"rating":{"$numberInt":"4"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df17","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df19","isApproved":true},{"tripId":"5de7ed2d5388cc0e36f9df1a","isApproved":true}]}],"pendings":[{"_id":"5de7ec515388cc0e36f9df0b","firstName":"Anissa","lastName":"Kittoe","email":"akittoe2@cbsnews.com","password":"johntheking","imgUrl":"https://images.pexels.com/photos/3267569/pexels-photo-3267569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","favTrips":["Festivals","Hiking","Cultural"],"rating":{"$numberInt":"2"}},{"_id":"5de7ec515388cc0e36f9df0c","firstName":"Shanon","lastName":"Bartosch","email":"abartosch3@constantcontact.com","imgUrl":"https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","favTrips":["Biking","Urban","Cultural"],"rating":{"$numberInt":"5"},"tripsJoin":[{"tripId":"5de7ed2d5388cc0e36f9df14","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df13","isApproved":false},{"tripId":"5de7ed2d5388cc0e36f9df1a","isApproved":false}]}],"country":"United Kingdom","rating":{"$numberDouble":"4.7"},"maxCapacity":{"$numberInt":"10"},"isEditable":true,"imgUrl":["https://images.pexels.com/photos/374815/pexels-photo-374815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/34629/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]}
+
+

@@ -1,0 +1,207 @@
+.user-details > * {
+  margin: 0;
+  padding: 0;
+}
+
+.user-header {
+  background-image: url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 280px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.user-section {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.user-profile img {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 0 1px #333;
+          box-shadow: 0 0 0 1px #333;
+  margin: 200px 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user-info {
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 80px;
+}
+
+.user-info > *, .social-section * {
+  font-size: 20px;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-section {
+  grid-area: trip-section;
+  border-left: 1px solid #e5e5e5;
+}
+
+.user-section-header {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.user-section-header h1 {
+  font-size: 24px;
+}
+
+.user-section p {
+  line-height: 1.8;
+}
+
+.icon-info {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.user-intrest {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.type-label {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0px 10px 5px 0px;
+  background-color: #1da0f2c2;
+  color: white;
+}
+
+.social-section {
+  grid-area: social-section;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.social-group {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+
+.user-social-imgs {
+  height: 40px;
+  margin: 0;
+}
+
+.user-circle {
+  height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-circle:nth-child(2) {
+  margin-left: 10px;
+}
+
+.user-circle:nth-child(3) {
+  margin-left: 10px;
+}
+
+.user-circle:nth-child(4) {
+  margin-left: 10px;
+}
+
+.social-section h2 {
+  font-weight: bolder;
+  margin: 20px 0px;
+}
+
+.user-join-btn {
+  width: 150px;
+  background-color: #2b3abe;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 200px;
+  height: 45px;
+}
+
+.group-memebers {
+  width: 100vw;
+  min-height: 300px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.group-imgs {
+  width: 100%;
+}
+
+.group-imgs img {
+  width: 200px;
+}
+
+.v-card__title + .v-card__subtitle {
+  margin: 0;
+}
+
+.user-trip-section {
+  font-family: varela,lato,sans-serif;
+  font-size: 16px;
+  margin: 20px auto;
+}
+
+.user-trip-section .user-story {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.user-trip-section span {
+  color: #0000bb;
+}
+
+.trip-title {
+  font-size: 16px;
+  overflow: hidden;
+  max-height: 40px;
+}
+
+.trip-sub {
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  max-height: 110px;
+  font-family: varela,lato,sans-serif;
+}
+
+.trip-rate {
+  font-family: lobster,lato,sans-serif;
+  font-size: 16px;
+}
+
+.v-btn__content {
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.user-trips {
+  width: 100%;
+}
+
+.user-trips .title-user-trips {
+  margin: 10px 0px;
+}
+
+.user-trips .trips-join {
+  margin-left: 0;
+}
+/*# sourceMappingURL=user-details-cmp.css.map */

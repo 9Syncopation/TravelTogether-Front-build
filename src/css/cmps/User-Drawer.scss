@@ -1,0 +1,75 @@
+.drawer{
+    position: fixed;
+    height: 100vh;
+	background-image: linear-gradient(to right top, #cbfafa, #baeaf1, #aadae7, #9ecadd, #93b9d2);
+	opacity: 0.93;
+    width: 300px;
+    right: -300px;
+    bottom: 0%;
+    z-index: 10;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    color: black;
+    font-family: montLight,sans-serif;
+    font-size: 16px;
+    .drawer-header{
+        width: 100%;
+        min-height: 150px;
+        border-bottom:1px solid rgba(255, 255, 255, 0.719);
+        .intro{
+            margin: 0px;
+            width: 100%;
+            font-family: montBold,sans-serif;
+        }
+        .personal-details{
+            margin-top: 20px;
+            width:100%;
+        }
+    }
+    .drawer-body{
+        width: 100%;
+        margin-top: 20px;
+        & > *{
+            width: 100%;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.657);
+            cursor: pointer;
+        }
+        .user-settings{
+            align-self: flex-end;
+        }
+    }
+}
+ .drawer-open{
+     right: 0;
+ }
+
+.badge{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.bg-before{
+    top: -7px;
+    left: -7px;
+}
+
+.bg-after{
+    top: -7px;
+}
+
+@media (max-width:650px){
+    .drawer{
+        width:100vw;
+        right: -100vw;
+        &.drawer-open{
+            right: 0;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.drawer {
+  position: fixed;
+  height: 100vh;
+  background: -webkit-gradient(linear, right top, left top, from(#52adeb), to(#dcedf7));
+  background-image: linear-gradient(to right top, #cbfafa, #ade3d7, #98cbaf, #8cb286, #86975f);
+  width: 300px;
+  right: -300px;
+  bottom: 0%;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  color: black;
+  font-family: montLight,sans-serif;
+  font-size: 16px;
+}
+
+.drawer .drawer-header {
+  width: 100%;
+  min-height: 150px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.719);
+}
+
+.drawer .drawer-header .intro {
+  margin: 0px;
+  width: 100%;
+  font-family: montBold,sans-serif;
+}
+
+.drawer .drawer-header .personal-details {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.drawer .drawer-body {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.drawer .drawer-body > * {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.657);
+  cursor: pointer;
+}
+
+.drawer .drawer-body .user-settings {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.drawer-open {
+  right: 0;
+}
+
+.badge {
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: silver;
+}
+
+.bg-before {
+  top: -7px;
+  left: -7px;
+}
+
+.bg-after {
+  top: -7px;
+}
+
+@media (max-width: 650px) {
+  .drawer {
+    width: 100vw;
+    right: -100vw;
+  }
+  .drawer.drawer-open {
+    right: 0;
+  }
+}
+/*# sourceMappingURL=User-Drawer.css.map */

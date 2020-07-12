@@ -1,0 +1,55 @@
+.log{
+width: 100%;
+padding: 0px 10px;
+margin-top: 10px;
+font-size: 20px; 
+    span{
+    border-bottom: 2px solid black;
+    color: black;
+    }
+}
+.login-container{
+    color: black;
+    position: fixed;
+    z-index: 1000;
+    width: 300px;
+    top: 10vh;
+    right: 25px;
+    font-size: 13px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    border-radius: 5px;
+    form{
+        padding: 15px;
+        width: 100%;
+    }
+    .login-input{
+        align-self: flex-start;
+        margin-bottom: 10px;
+        max-width: 220px;
+    }
+    input{
+        margin: 0;
+        width: 200px;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.116);
+    }
+    .login-box-btn{
+        width: 125px;
+        background-color: rgba(91, 89, 204, 0.733);
+        color: white;
+        padding: 0px 10px ;
+        align-self: center;
+        margin-top:20px;
+        font-size: 20px;
+    }
+    .login-box-route ,.forget-pass{
+        color: blue !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    .login-box-route{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,111 @@
+.trip-locations{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sort-list {
+        width: 100%;
+        position: relative;
+        background:  #e5f4fdc2;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        border-radius: 5px;
+        .location-name{
+            font-weight:bolder ;
+        }
+        .stop-index{
+            width: 50px;
+            height: 50px;
+            line-height: 2.5;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+        .location-box{
+            margin: 0;
+            margin-left: 10px;
+        }
+      }
+    
+
+.trip-locations .sortable-drag{
+    opacity: 0;
+}
+
+.flip-list-move{
+    transition: transform 0.3s;
+}
+
+.ghost{
+    border-left: 3px solid rgb(96, 96, 245);
+    box-shadow: 10px 10px 5px -1 rgba(0, 0, 0, 0.123);
+    opacity: 0.7;
+    transition: all 0.3s;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: -50px;
+    }
+}
+.location-info{
+    max-width: 65%;
+}
+.location-name, .location-address{
+    font-size: 14px;
+    width:100%;
+    overflow: hidden;
+    text-align: left;
+    font-weight: 500;
+}
+
+.location-icons{
+    font-size: 14px;
+    margin: 10px;
+    i{
+        cursor: pointer;
+        margin:10px;
+        &.heart{
+            color: #ca3333;
+        }
+        &.map-pin{
+            color: rgb(119, 119, 119);
+        }
+    &:hover{
+        transform: scale(1.4);
+        transition: transform 0.3s linear;
+    }
+    }
+}
+
+
+@media (max-width:835px){
+
+    .location-name, .location-address, .location-icons{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:650px){
+    .trip-locations{
+        width: 100%;
+    }
+    .sort-list{
+        .stop-index{
+            display: none;
+            width: 25px;
+            height: 25px;
+            font-size: 10px;
+        }
+        .location-icons{
+            font-family: 10px;
+            i{
+                margin: 5px;
+            }
+        }
+        .location-info{
+            max-width: 65%;
+        }
+    }
+}
