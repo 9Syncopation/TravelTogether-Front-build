@@ -1,8 +1,8 @@
 import router from '../router/index.js'
 
-// const BASE_URL = process.env.NODE_ENV === 'production'
-const BASE_URL = (process.env.NODE_ENV !== 'development')
-    ? '/api/'
+const BASE_URL = process.env.NODE_ENV === 'production'
+// const BASE_URL = (process.env.NODE_ENV !== 'development')
+    ? '/'
     : 'http://localhost:3000/'
 
 

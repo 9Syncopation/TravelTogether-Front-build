@@ -4,7 +4,6 @@ import utilService from '../services/util-service.js';
 var localLoggedinUser = null;
 var localusers = null;
 if (sessionStorage.user) localLoggedinUser = JSON.parse(sessionStorage.user);
-// console.log("sessionStorage.user", sessionStorage.user)
 if (sessionStorage.users) localusers = JSON.parse(sessionStorage.users);
 
 
@@ -45,8 +44,8 @@ export default {
             return user;
         },
         async signUp(context, userCred) {
-            console.log("signUp -> userCred", userCred)
-            console.log("signUp -> context", context)
+            // console.log("signUp -> userCred", userCred)
+            // console.log("signUp -> context", context)
             const user = await userService.signUp(userCred)
             context.commit({type: 'setUser', user})
             return user;
