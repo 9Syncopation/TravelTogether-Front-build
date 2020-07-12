@@ -4,7 +4,7 @@ import utilService from '../services/util-service.js';
 var localLoggedinUser = null;
 var localusers = null;
 if (sessionStorage.user) localLoggedinUser = JSON.parse(sessionStorage.user);
-console.log("sessionStorage.user", sessionStorage.user)
+// console.log("sessionStorage.user", sessionStorage.user)
 if (sessionStorage.users) localusers = JSON.parse(sessionStorage.users);
 
 
