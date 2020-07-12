@@ -7,13 +7,13 @@ export default {
 }
 
 function query() {
-    return HttpService.get('api/trip')
+    return HttpService.get('trip')
 }
 
 function getById(tripId) {
-    return HttpService.get(`api/trip/${tripId}`)
+    return HttpService.get(`trip/${tripId}`)
 }
 
 function update(trip) {
-    return HttpService.put(`api/trip/update`,trip)
+    return HttpService.put(`trip/update`,trip)
 }
