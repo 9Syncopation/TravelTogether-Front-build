@@ -13,24 +13,24 @@ export default {
 //     return HttpService.get(`users/${userId}`)
 // }
 function getUsers() {
-    return HttpService.get('user/users')
+    return HttpService.get('api/user/users')
 }
 
 async function login(userCred) {
-    const user = await HttpService.post('auth/login', userCred)
+    const user = await HttpService.post('api/auth/login', userCred)
     return _handleLogin(user)
 }
 async function signUp(userCred) {
-    const user = await HttpService.post('auth/signup', userCred)
+    const user = await HttpService.post('api/auth/signup', userCred)
     return _handleLogin(user)
 }
 async function logOut() {
-    await HttpService.post('auth/logout');
+    await HttpService.post('api/auth/logout');
     sessionStorage.clear();
 }
 
 async function update(user){
-    let currUser = await HttpService.put('user/update', user)
+    let currUser = await HttpService.put('api/user/update', user)
     return _handleLogin(currUser)
 
 }
